@@ -32,7 +32,7 @@ public interface IAvaliacaoFisicaService {
    * @param id - id da Avaliação Física que será atualizada.
    * @param formUpdate - formulário referente aos dados necessários para atualização da Avaliação
    * Física no banco de dados.
-   * @return - Avaliação Física recém-atualizada.
+   * @return - Avaliação Física recém-atualizada .
    */
   AvaliacaoFisica update(Long id, AvaliacaoFisicaUpdateForm formUpdate);
 
