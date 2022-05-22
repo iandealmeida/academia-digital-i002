@@ -1,11 +1,10 @@
-
 server.port: 8081
 
 spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/academia?useTimezone=true&serverTimezone=UTC&useLegacyDate
-    username: cami
-    password: root
+    username: postgres
+    password: dsacademy
   jpa:
     show-sql: true
     hibernate:
@@ -13,8 +12,8 @@ spring:
     properties:
       hibernate.format_sql: true
 
-logging:
-  level:
-    org:
-      hibernate:
-        type: trace
+      logging:
+        level:
+          org:
+            hibernate:
+              type: trace

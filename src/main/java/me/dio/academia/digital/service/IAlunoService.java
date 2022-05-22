@@ -50,6 +50,4 @@ public interface IAlunoService {
    * @return uma lista com todas as avaliações do aluno de acordo com o Id
    */
   List<AvaliacaoFisica> getAllAvaliacaoFisicaId(Long id);
-
-
 }
