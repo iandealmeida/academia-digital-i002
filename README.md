@@ -1,32 +1,18 @@
 <h1>Conhecendo o Projeto Spring Data JPA na Prática </h1>
-<h2>Projeto em desenvolvimento</h2>
+<h2>Carrefour WebDeveloper BootCamp</h2>
 
+Como parte do bootcamp Carrefour Web Developer, acompanhamos o desenvolvimento de uma **API RESTful** usando o **Spring Data JPA** trata dados básicos de uma academia de ginástica.
 
-<p> Sejam bem-vindos ao projeto de LAB <strong>Conhecendo o Projeto Spring Data JPA na Prática</strong> oferecido gratuitamente pela plataforma de cursos online <a href="https://dio.me/"><strong> Digital Innovation One</strong></a>.<br>
-    
-    Este projeto está em construção e será postado nos próximos dias.
+## Para acessar os dados:
+1. Clonar o respositório;
+2. Carregar as dependências com o Maven (recomendo instalar o plugin do Maven na sua IDE)
+3. Execute a aplicação;
+4. Altere o nome de usuário e senha de acesso ao seu banco de dados no arquivo application.yml.
+5. Abra no navegador: http://localhost:8081/swagger-ui/index.html#/
 
-<!-- <h2>🎯 Objetivo do Projeto</h2>
-<p>Ao final deste projeto, o Dev irá conhecer os principais conceitos de mapeamento objeto relacional (ORM) usando o <strong>Spring Data JPA</strong>. Para isso, uma <strong>API RESTful</strong> será desenvolvida com ênfase na modelagem de suas entidades, no domínio de uma academia de ginástica.</p>
+Adicionei a dependência do Swagger para ter uma melhor documentação e acesso aos métodos.
 
-<h2>
-🛑 Pré-requistos
-</h2>
-
-- [x] Fundamentos do Spring Boot
-
-- [x] Noções de SQL
-
-<h2> 🚦 Guia </h2>
-
-<ol>
-    <li> Apresentação do Projeto Base </li>
-    <li> Configuração do banco de dados (SGBD <em>PostgreSQL</em>)</li>
-    <li> Aplicando as <em>annotations</em></li>
-    <li> Execução do fluxo back-end: <em>Controller - Service - Repository</em></li>
-    <li> Validação - <em>Hibernate Validator</em> </li>
-    <li> Consultas Avançadas - <em>Derived Query - Native Query</em></li>
-</ol>
+Projeto apresentado pela desenvolvedora [Camila Cavalcanti](https://github.com/cami-la/academia-digital "Camila Cavalcanti").
 
 <h2>🛠 Tecnologias Utilizadas</h2>
 
@@ -88,20 +74,7 @@ Indica qual é o lado inverso ou não dominante da relação.
 
 </ul>
 
-
-<h2> 🤝 Contribuindo </h2>
-
-Este repositório foi criado para fins de estudo, então contribua com ele. Se te ajudei de alguma forma, ficarei feliz em
-saber. E caso você conheça alguém que se identidique com o conteúdo, não deixe de compatilhar.
-
-Se possível:
-
-⭐️ Star o projeto
-
-🐛 Encontrar e relatar issues
-
 ------------
 
 Disponibilizado com ♥ por [cami-la](https://www.linkedin.com/in/cami-la/ "cami-la").
 
--->
