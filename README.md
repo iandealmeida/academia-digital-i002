@@ -4,7 +4,7 @@
 Como parte do bootcamp Carrefour Web Developer, acompanhamos o desenvolvimento de uma **API RESTful** usando o **Spring Data JPA** trata dados básicos de uma academia de ginástica.
 
 ## Para acessar os dados:
-1. Clonar o respositório;
+1. Clonar o repositório;
 2. Carregar as dependências com o Maven (recomendo instalar o plugin do Maven na sua IDE)
 3. Execute a aplicação;
 4. Altere o nome de usuário e senha de acesso ao seu banco de dados no arquivo application.yml.
